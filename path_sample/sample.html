@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sample To Create New User In Account</title>
+
+    <script src="helloworldbowermodule"></script>
+
+    <script>
+        var api = new HelloWorld.Api();
+        var model = new HelloWorld.TryIndex() ;
+
+        (function() {
+            var count = api.initializeCount() ;
+            console.log(model.increaseCount(count));
+        })();
+    </script>
+
+
+</head>
+<body>
+</body>
+</html>
