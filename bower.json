@@ -1,6 +1,6 @@
 {
   "name": "helloworldbowerproject",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "This is sample bower module published",
   "main": "dist/hello.js",
   "repository": {
